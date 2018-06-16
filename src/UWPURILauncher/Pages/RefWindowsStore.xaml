@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="UWPURILauncher.Pages.RefWindowsStore"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWPURILauncher.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:userControl="using:UWPURILauncher.UserControl"
+    DataContext="{Binding Source={StaticResource Locator}, Path=RefWindowsStore}"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ScrollViewer Style="{StaticResource PageScrollViewerStyle}">
+            <StackPanel>
+                <TextBlock Text="Windows Store Launch Options" Style="{StaticResource TitleTextBlockStyle}" />
+                <userControl:ReferencesList />
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

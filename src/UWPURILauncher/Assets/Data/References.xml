@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<References>
+  <Category Name="Windows Store">
+    <UriReference Description="Launches the home page of the Store.">
+      <UriString Content="ms-windows-store://home" />
+    </UriReference>
+    <UriReference Description="Launches a top-level vertical in the Store.">
+      <UriString Content="ms-windows-store://navigatetopage/?Id=Games" />
+    </UriReference>
+    <UriReference Description="Launches the product details page (PDP) for a product. Product ID is recommended for customers on Windows 10, but earlier ways of doing it(ex: PFN) still work. These values can be found in the Windows Dev Center dashboard on the App identity page in the App management section for each app.">
+      <UriString Content="ms-windows-store://pdp/?ProductId=9WZDNCRFHVJL" />
+      <UriString Content="ms-windows-store://pdp/?PFN= Microsoft.Office.OneNote_8wekyb3d8bbwe" />
+    </UriReference>
+    <UriReference Description="Launches the write a review experience for a product.">
+      <UriString Content="ms-windows-store://review/?ProductId=9WZDNCRFHVJL" />
+    </UriReference>
+    <UriReference Description="Launches a search for products associated with a file extension.">
+      <UriString Content="ms-windows-store://assoc/?FileExt=pdf" />
+    </UriReference>
+    <UriReference Description="Launches a search for products associated with a protocol.">
+      <UriString Content="ms-windows-store://assoc/?Protocol=ms-word" />
+    </UriReference>
+    <UriReference Description="Launches a search for products associated with one or more tags. Tags should be separated by commas.">
+      <UriString Content="ms-windows-store://assoc/?Tags=Photos_Rich_Media_Edit" />
+    </UriReference>
+    <UriReference Description="Launches a search for the specified query. Spaces in the query are allowed.">
+      <UriString Content="ms-windows-store://search/?query=OneNote" />
+    </UriReference>
+    <UriReference Description="Launches a search for products in a category.">
+      <UriString Content="ms-windows-store://browse/?type=Apps&amp;cat=Productivity" />
+    </UriReference>
+    <UriReference Description="Launches a search for products from the specified publisher. Spaces in the name are allowed.">
+      <UriString Content="ms-windows-store://publisher/?name=Microsoft Corporation" />
+    </UriReference>
+    <UriReference Description="Launches the downloads and updates page.">
+      <UriString Content="ms-windows-store://downloadsandupdates" />
+    </UriReference>
+    <UriReference Description="Launches the Store settings page.">
+      <UriString Content="ms-windows-store://settings" />
+    </UriReference>
+  </Category>
+  <Category Name="Accounts">
+    <UriReference Description="Your email and accounts">
+      <UriString Content="ms-settings:emailandaccounts" />
+    </UriReference>
+    <UriReference Description="Access work or school">
+      <UriString Content="ms-settings:workplace" />
+    </UriReference>
+    <UriReference Description="Sync your settings">
+      <UriString Content="ms-settings:sync" />
+    </UriReference>
+    <UriReference Description="Family &amp; other people">
+      <UriString Content="ms-settings:otherusers" />
+    </UriReference>
+    <UriReference Description="Sign-in options">
+      <UriString Content="ms-settings:signinoptions" />
+    </UriReference>
+    <UriReference Description="Your info">
+      <UriString Content="ms-settings:yourinfo" />
+    </UriReference>
+  </Category>
+  <Category Name="Apps">
+    <UriReference Description="Apps &amp; Features">
+      <UriString Content="ms-settings:appsfeatures" />
+    </UriReference>
+    <UriReference Description="Apps for websites">
+      <UriString Content="ms-settings:appsforwebsites" />
+    </UriReference>
+    <UriReference Description="Default apps">
+      <UriString Content="ms-settings:defaultapps" />
+    </UriReference>
+    <UriReference Description="Optional Features">
+      <UriString Content="ms-settings:optionalfeatures" />
+    </UriReference>
+  </Category>
+  <Category Name="Windows Settings">
+    <UriReference Description="Landing page for Settings">
+      <UriString Content="ms-settings:" />
+    </UriReference>
+    <UriReference Description="Display">
+      <UriString Content="ms-settings:display" />
+      <UriString Content="ms-settings:screenrotation" />
+    </UriReference>
+    <UriReference Description="Notifications">
+      <UriString Content="ms-settings:notifications" />
+    </UriReference>
+    <UriReference Description="Storage">
+      <UriString Content="ms-settings:storagesense" />
+    </UriReference>
+    <UriReference Description="Battery Saver">
+      <UriString Content="ms-settings:batterysaver" />
+      <UriString Content="ms-settings:batterysaver-settings" />
+      <UriString Content="ms-settings:batterysaver-usagedetai" />
+    </UriReference>
+    <UriReference Description="Offline Maps">
+      <UriString Content="ms-settings:maps" />
+    </UriReference>
+    <UriReference Description="About">
+      <UriString Content="ms-settings:about" />
+    </UriReference>
+    <UriReference Description="Default camera">
+      <UriString Content="ms-settings:camera" />
+    </UriReference>
+    <UriReference Description="Bluetooth">
+      <UriString Content="ms-settings:bluetooth" />
+    </UriReference>
+    <UriReference Description="Mouse &amp; touchpad">
+      <UriString Content="ms-settings:mousetouchpad" />
+    </UriReference>
+    <UriReference Description="NFC">
+      <UriString Content="ms-settings:nfctransactions" />
+    </UriReference>
+    <UriReference Description="Wi-Fi">
+      <UriString Content="ms-settings:network-wifi" />
+    </UriReference>
+    <UriReference Description="Airplane mode">
+      <UriString Content="ms-settings:network-airplanemode" />
+    </UriReference>
+    <UriReference Description="Data usage">
+      <UriString Content="ms-settings:datausage" />
+    </UriReference>
+    <UriReference Description="Cellular &amp; SIM">
+      <UriString Content="ms-settings:network-cellular" />
+    </UriReference>
+    <UriReference Description="Mobile hotspot">
+      <UriString Content="ms-settings:network-mobilehotspot" />
+    </UriReference>
+    <UriReference Description="Proxy">
+      <UriString Content="ms-settings:network-proxy" />
+    </UriReference>
+    <UriReference Description="Personalization (category)">
+      <UriString Content="ms-settings:personalization" />
+    </UriReference>
+    <UriReference Description="Background (Desktop only)">
+      <UriString Content="ms-settings:personalization-background" />
+    </UriReference>
+    <UriReference Description="Colors">
+      <UriString Content="ms-settings:personalization-colors" />
+    </UriReference>
+    <UriReference Description="Sounds (Mobile only)">
+      <UriString Content="ms-settings:sounds" />
+    </UriReference>
+    <UriReference Description="Lock screen">
+      <UriString Content="ms-settings:lockscreen" />
+    </UriReference>
+    <UriReference Description="Offline Maps">
+      <UriString Content="ms-settings:maps" />
+    </UriReference>
+    <UriReference Description="About">
+      <UriString Content="ms-settings:about" />
+    </UriReference>
+  </Category>
+  <Category Name="Devices">
+    <UriReference Description="USB">
+      <UriString Content="ms-settings:usb" />
+    </UriReference>
+    <UriReference Description="Audio and speech">
+      <UriString Content="ms-settings:holographic-audio" />
+    </UriReference>
+    <UriReference Description="AutoPlay">
+      <UriString Content="ms-settings:autoplay" />
+    </UriReference>
+    <UriReference Description="Touchpad">
+      <UriString Content="ms-settings:devices-touchpad" />
+    </UriReference>
+    <UriReference Description="Pen &amp; Windows Ink">
+      <UriString Content="ms-settings:pen" />
+    </UriReference>
+    <UriReference Description="Printers &amp; scanners">
+      <UriString Content="ms-settings:printers" />
+    </UriReference>
+    <UriReference Description="Typing">
+      <UriString Content="ms-settings:typing" />
+    </UriReference>
+    <UriReference Description="Wheel">
+      <UriString Content="ms-settings:wheel" />
+    </UriReference>
+    <UriReference Description="Default camera">
+      <UriString Content="ms-settings:camera" />
+    </UriReference>
+    <UriReference Description="Bluetooth">
+      <UriString Content="ms-settings:bluetooth" />
+    </UriReference>
+    <UriReference Description="Mouse &amp; touchpad">
+      <UriString Content="ms-settings:mousetouchpad" />
+    </UriReference>
+    <UriReference Description="Connected Devices">
+      <UriString Content="ms-settings:connecteddevices" />
+    </UriReference>
+  </Category>
+  <Category Name="Network &amp; Internet">
+    <UriReference Description="Ethernet">
+      <UriString Content="ms-settings:network-ethernet" />
+    </UriReference>
+    <UriReference Description="VPN">
+      <UriString Content="ms-settings:network-vpn" />
+    </UriReference>
+    <UriReference Description="Dial-up">
+      <UriString Content="ms-settings:network-dialup" />
+    </UriReference>
+    <UriReference Description="Wi-Fi Calling">
+      <UriString Content="ms-settings:network-wificalling" />
+    </UriReference>
+    <UriReference Description="Data usage">
+      <UriString Content="ms-settings:datausage" />
+    </UriReference>
+    <UriReference Description="Cellular &amp; SIM">
+      <UriString Content="ms-settings:network-cellular" />
+    </UriReference>
+    <UriReference Description="Mobile hotspot">
+      <UriString Content="ms-settings:network-mobilehotspot" />
+    </UriReference>
+    <UriReference Description="Proxy">
+      <UriString Content="ms-settings:network-proxy" />
+    </UriReference>
+    <UriReference Description="Manage known networks">
+      <UriString Content="ms-settings:network-wifisettings" />
+    </UriReference>
+    <UriReference Description="NFC">
+      <UriString Content="ms-settings:nfctransactions" />
+    </UriReference>
+    <UriReference Description="NFC">
+      <UriString Content="ms-settings:nfctransactions" />
+    </UriReference>
+    <UriReference Description="Wi-Fi">
+      <UriString Content="ms-settings:network-wifi" />
+    </UriReference>
+    <UriReference Description="Airplane mode">
+      <UriString Content="ms-settings:network-airplanemode" />
+    </UriReference>
+  </Category>
+  <Category Name="Personalization">
+    <UriReference Description="Start">
+      <UriString Content="ms-settings:personalization-start" />
+    </UriReference>
+    <UriReference Description="Themes">
+      <UriString Content="ms-settings:themes" />
+    </UriReference>
+    <UriReference Description="Glance">
+      <UriString Content="ms-settings:personalization-glance" />
+    </UriReference>
+    <UriReference Description="Navigation bar">
+      <UriString Content="ms-settings:personalization-navbar" />
+    </UriReference>
+    <UriReference Description="Personalization (category)">
+      <UriString Content="ms-settings:personalization" />
+    </UriReference>
+    <UriReference Description="Background">
+      <UriString Content="ms-settings:personalization-background" />
+    </UriReference>
+    <UriReference Description="Colors">
+      <UriString Content="ms-settings:personalization-colors" />
+    </UriReference>
+    <UriReference Description="Sounds">
+      <UriString Content="ms-settings:sounds" />
+    </UriReference>
+    <UriReference Description="Lock screen">
+      <UriString Content="ms-settings:lockscreen" />
+    </UriReference>
+    <UriReference Description="Task Bar">
+      <UriString Content="ms-settings:taskbar" />
+    </UriReference>
+  </Category>
+  <Category Name="Time and language">
+    <UriReference Description="Date &amp; time">
+      <UriString Content="ms-settings:dateandtime" />
+    </UriReference>
+    <UriReference Description="Region &amp; language (Desktop only)">
+      <UriString Content="ms-settings:regionlanguage" />
+    </UriReference>
+  </Category>
+  <Category Name="Ease of Access">
+    <UriReference Description="Narrator">
+      <UriString Content="ms-settings:easeofaccess-narrator" />
+      <UriReference Description="Magnifier">
+        <UriString Content="ms-settings:easeofaccess-magnifier" />
+      </UriReference>
+      <UriReference Description="High contrast">
+        <UriString Content="ms-settings:easeofaccess-highcontrast" />
+      </UriReference>
+      <UriReference Description="Closed captions">
+        <UriString Content="ms-settings:easeofaccess-closedcaptioning" />
+      </UriReference>
+      <UriReference Description="Keyboard">
+        <UriString Content="ms-settings:easeofaccess-keyboard" />
+      </UriReference>
+      <UriReference Description="Mouse">
+        <UriString Content="ms-settings:easeofaccess-mouse" />
+      </UriReference>
+      <UriReference Description="Other options">
+        <UriString Content="ms-settings:easeofaccess-otheroptions" />
+      </UriReference>
+    </UriReference>
+  </Category>
+  <Category Name="Privacy">
+    <UriReference Description="App diagnostics">
+      <UriString Content="ms-settings:privacy-appdiagnostics" />
+    </UriReference>
+    <UriReference Description="Notifications">
+      <UriString Content="ms-settings:privacy-notifications" />
+    </UriReference>
+    <UriReference Description="Tasks">
+      <UriString Content="ms-settings:privacy-tasks" />
+    </UriReference>
+    <UriReference Description="General">
+      <UriString Content="ms-settings:privacy-general" />
+    </UriReference>
+    <UriReference Description="Accessory apps">
+      <UriString Content="ms-settings:privacy-accessoryapps" />
+    </UriReference>
+    <UriReference Description="Advertising ID">
+      <UriString Content="ms-settings:privacy-advertisingid" />
+    </UriReference>
+    <UriReference Description="Phone calls">
+      <UriString Content="ms-settings:privacy-phonecall" />
+    </UriReference>
+    <UriReference Description="Location">
+      <UriString Content="ms-settings:privacy-location" />
+    </UriReference>
+    <UriReference Description="Camera">
+      <UriString Content="ms-settings:privacy-webcam" />
+    </UriReference>
+    <UriReference Description="Microphone">
+      <UriString Content="ms-settings:privacy-microphone" />
+    </UriReference>
+    <UriReference Description="Motion">
+      <UriString Content="ms-settings:privacy-motion" />
+    </UriReference>
+    <UriReference Description="Speech, inking &amp; typing">
+      <UriString Content="ms-settings:privacy-speechtyping" />
+    </UriReference>
+    <UriReference Description="Account info">
+      <UriString Content="ms-settings:privacy-accountinfo" />
+    </UriReference>
+    <UriReference Description="Contacts">
+      <UriString Content="ms-settings:privacy-contacts" />
+    </UriReference>
+    <UriReference Description="Calendar">
+      <UriString Content="ms-settings:privacy-calendar" />
+    </UriReference>
+    <UriReference Description="Call history">
+      <UriString Content="ms-settings:privacy-callhistory" />
+    </UriReference>
+    <UriReference Description="Email">
+      <UriString Content="ms-settings:privacy-email" />
+    </UriReference>
+    <UriReference Description="Messaging">
+      <UriString Content="ms-settings:privacy-messaging" />
+    </UriReference>
+    <UriReference Description="Radios">
+      <UriString Content="ms-settings:privacy-radios" />
+    </UriReference>
+    <UriReference Description="Background Apps">
+      <UriString Content="ms-settings:privacy-backgroundapps" />
+    </UriReference>
+    <UriReference Description="Other devices">
+      <UriString Content="ms-settings:privacy-customdevices" />
+    </UriReference>
+    <UriReference Description="Feedback &amp; diagnostics">
+      <UriString Content="ms-settings:privacy-feedback" />
+    </UriReference>
+  </Category>
+  <Category Name="Gaming">
+    <UriReference Description="Broadcasting">
+      <UriString Content="ms-settings:gaming-broadcasting" />
+    </UriReference>
+    <UriReference Description="Game bar">
+      <UriString Content="	ms-settings:gaming-gamebar" />
+    </UriReference>
+    <UriReference Description="Game DVR">
+      <UriString Content="ms-settings:gaming-gamedvr" />
+    </UriReference>
+    <UriReference Description="Game Mode">
+      <UriString Content="ms-settings:gaming-gamemode" />
+    </UriReference>
+  </Category>
+  <Category Name="Update &amp; security">
+    <UriReference Description="For developers">
+      <UriString Content="ms-settings:ms-settings:developers" />
+    </UriReference>
+  </Category>
+  <Category Name="Windows Maps">
+    <UriReference Description="Opens the Maps app.">
+      <UriString Content="bingmaps:" />
+    </UriReference>
+    <UriReference Description="Displays a map centered over New York City.">
+      <UriString Content="bingmaps:?cp=40.726966~-74.006076" />
+    </UriReference>
+    <UriReference Description="Displays a map centered over New York City with a zoom level of 10.">
+      <UriString Content="bingmaps:?cp=40.726966~-74.006076&amp;lvl=10" />
+    </UriReference>
+    <UriReference Description="Displays a map of New York City with the size of the screen as the bounding box.">
+      <UriString Content="bingmaps:?bb=39.719_-74.52~41.71_-73.5" />
+    </UriReference>
+    <UriReference Description="Displays a map of New York City, which is the area specified in the bounding box argument. The center point for Seattle specified in the cp argument is ignored.">
+      <UriString Content="bingmaps:?bb=39.719_-74.52~41.71_-73.5&amp;cp=47~-122" />
+    </UriReference>
+    <UriReference Description="Displays a map of New York, which is the area specified in the bb argument. The cp argument, which specifies Seattle, is ignored because cp and lvl are ignored when bb is specified.">
+      <UriString Content="bingmaps:?bb=39.719_-74.52~41.71_-73.5&amp;cp=47~-122&amp;lvl=8" />
+    </UriReference>
+    <UriReference Description="Displays a map with a point named Caesars Palace (in Las Vegas) and sets the zoom level to 16.">
+      <UriString Content="bingmaps:?collection=point.36.116584_-115.176753_Caesars%20Palace&amp;lvl=16" />
+    </UriReference>
+    <UriReference Description="Displays a map with a point named Some_Business (in Las Vegas).">
+      <UriString Content="bingmaps:?collection=point.40.726966_-74.006076_Some%255FBusiness" />
+    </UriReference>
+    <UriReference Description="Displays a map of NYC with traffic on and aerial map style.">
+      <UriString Content="bingmaps:?cp=40.726966~-74.006076&amp;trfc=1&amp;sty=a" />
+    </UriReference>
+    <UriReference Description="Displays a 3D view of the Space Needle.">
+      <UriString Content="bingmaps:?cp=47.6204~-122.3491&amp;sty=3d" />
+    </UriReference>
+    <UriReference Description="Displays a 3D view of the Space Needle with a radius of 200m, a pitch or 75 degrees, and a heading of 165 degrees.">
+      <UriString Content="bingmaps:?cp=47.6204~-122.3491&amp;sty=3d&amp;rad=200&amp;pit=75&amp;hdg=165" />
+    </UriReference>
+    <UriReference Description="Displays a Streetside view of the Space Needle.">
+      <UriString Content="bingmaps:?cp=47.6204~-122.3491&amp;ss=1" />
+    </UriReference>
+  </Category>
+  <Category Name="Known Apps">
+    <UriReference Description="Opens OneNote">
+      <UriString Content="onenote-cmd:" />
+    </UriReference>
+    <UriReference Description="Opens Bing News">
+      <UriString Content="bingnews:" />
+    </UriReference>
+    <UriReference Description="Opens Bing Weather">
+      <UriString Content="bingweather:" />
+    </UriReference>
+    <UriReference Description="Opens XBOX">
+      <UriString Content="xbox:" />
+    </UriReference>
+    <UriReference Description="Open ShanghaiMetro">
+      <UriString Content="shmetrouwp:" />
+    </UriReference>
+    <UriReference Description="Open 淘宝HD">
+      <UriString Content="taobao:" />
+    </UriReference>
+    <UriReference Description="Open 智机网">
+      <UriString Content="wfuncom:news" />
+    </UriReference>
+    <UriReference Description="Open IP List">
+      <UriString Content="iplistuwp:" />
+    </UriReference>
+  </Category>
+</References>
