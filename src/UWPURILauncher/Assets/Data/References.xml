@@ -40,20 +40,20 @@
     </UriReference>
   </Category>
   <Category Name="Accounts">
-    <UriReference Description="Your email and accounts">
-      <UriString Content="ms-settings:emailandaccounts" />
-    </UriReference>
     <UriReference Description="Access work or school">
       <UriString Content="ms-settings:workplace" />
     </UriReference>
-    <UriReference Description="Sync your settings">
-      <UriString Content="ms-settings:sync" />
+    <UriReference Description="Email &amp; app accounts">
+      <UriString Content="ms-settings:emailandaccounts" />
     </UriReference>
     <UriReference Description="Family &amp; other people">
       <UriString Content="ms-settings:otherusers" />
     </UriReference>
     <UriReference Description="Sign-in options">
       <UriString Content="ms-settings:signinoptions" />
+    </UriReference>
+    <UriReference Description="Sync your settings">
+      <UriString Content="ms-settings:sync" />
     </UriReference>
     <UriReference Description="Your info">
       <UriString Content="ms-settings:yourinfo" />
@@ -63,14 +63,34 @@
     <UriReference Description="Apps &amp; Features">
       <UriString Content="ms-settings:appsfeatures" />
     </UriReference>
+    <UriReference Description="Apps features (Reset, manage add-on &amp; downloadable content, etc. for the app)">
+      <UriString Content="ms-settings:appsfeatures-app" />
+    </UriReference>
     <UriReference Description="Apps for websites">
       <UriString Content="ms-settings:appsforwebsites" />
     </UriReference>
     <UriReference Description="Default apps">
       <UriString Content="ms-settings:defaultapps" />
     </UriReference>
-    <UriReference Description="Optional Features">
+    <UriReference Description="Manage optional features">
       <UriString Content="ms-settings:optionalfeatures" />
+    </UriReference>
+    <UriReference Description="Startup apps">
+      <UriString Content="ms-settings:startupapps" />
+    </UriReference>
+  </Category>
+  <Category Name="Cortana">
+    <UriReference Description="Cortana Permissions &amp; History">
+      <UriString Content="ms-settings:cortana-permissions" />
+    </UriReference>
+    <UriReference Description="More details">
+      <UriString Content="ms-settings:cortana-moredetails" />
+    </UriReference>
+    <UriReference Description="Notifications">
+      <UriString Content="ms-settings:cortana-notifications" />
+    </UriReference>
+    <UriReference Description="Talk to Cortana">
+      <UriString Content="ms-settings:cortana-language" />
     </UriReference>
   </Category>
   <Category Name="Windows Settings">
@@ -151,17 +171,23 @@
     </UriReference>
   </Category>
   <Category Name="Devices">
-    <UriReference Description="USB">
-      <UriString Content="ms-settings:usb" />
-    </UriReference>
     <UriReference Description="Audio and speech">
       <UriString Content="ms-settings:holographic-audio" />
     </UriReference>
     <UriReference Description="AutoPlay">
       <UriString Content="ms-settings:autoplay" />
     </UriReference>
-    <UriReference Description="Touchpad">
-      <UriString Content="ms-settings:devices-touchpad" />
+    <UriReference Description="Bluetooth">
+      <UriString Content="ms-settings:bluetooth" />
+    </UriReference>
+    <UriReference Description="Connected Devices">
+      <UriString Content="ms-settings:connecteddevices" />
+    </UriReference>
+    <UriReference Description="Default camera">
+      <UriString Content="ms-settings:camera" />
+    </UriReference>
+    <UriReference Description="Mouse &amp; touchpad">
+      <UriString Content="ms-settings:mousetouchpad" />
     </UriReference>
     <UriReference Description="Pen &amp; Windows Ink">
       <UriString Content="ms-settings:pen" />
@@ -169,23 +195,20 @@
     <UriReference Description="Printers &amp; scanners">
       <UriString Content="ms-settings:printers" />
     </UriReference>
+    <UriReference Description="Touchpad">
+      <UriString Content="ms-settings:devices-touchpad" />
+    </UriReference>
     <UriReference Description="Typing">
       <UriString Content="ms-settings:typing" />
+    </UriReference>
+    <UriReference Description="USB">
+      <UriString Content="ms-settings:usb" />
     </UriReference>
     <UriReference Description="Wheel">
       <UriString Content="ms-settings:wheel" />
     </UriReference>
-    <UriReference Description="Default camera">
-      <UriString Content="ms-settings:camera" />
-    </UriReference>
-    <UriReference Description="Bluetooth">
-      <UriString Content="ms-settings:bluetooth" />
-    </UriReference>
-    <UriReference Description="Mouse &amp; touchpad">
-      <UriString Content="ms-settings:mousetouchpad" />
-    </UriReference>
-    <UriReference Description="Connected Devices">
-      <UriString Content="ms-settings:connecteddevices" />
+    <UriReference Description="Your phone">
+      <UriString Content="ms-settings:mobile-devices" />
     </UriReference>
   </Category>
   <Category Name="Network &amp; Internet">
@@ -270,26 +293,44 @@
     </UriReference>
   </Category>
   <Category Name="Ease of Access">
+    <UriReference Description="Audio">
+      <UriString Content="ms-settings:easeofaccess-audio" />
+    </UriReference>
+    <UriReference Description="Closed captions">
+      <UriString Content="ms-settings:easeofaccess-closedcaptioning" />
+    </UriReference>
+    <UriReference Description="Display">
+      <UriString Content="ms-settings:easeofaccess-display" />
+    </UriReference>
+    <UriReference Description="Eye control">
+      <UriString Content="ms-settings:easeofaccess-eyecontrol" />
+    </UriReference>
+    <UriReference Description="Fonts">
+      <UriString Content="ms-settings:fonts" />
+    </UriReference>
+    <UriReference Description="High contrast">
+      <UriString Content="ms-settings:easeofaccess-highcontrast" />
+    </UriReference>
+    <UriReference Description="Holographic headset">
+      <UriString Content="ms-settings:holographic-headset" />
+    </UriReference>
+    <UriReference Description="Keyboard">
+      <UriString Content="ms-settings:easeofaccess-keyboard" />
+    </UriReference>
+    <UriReference Description="Magnifier">
+      <UriString Content="ms-settings:easeofaccess-magnifier" />
+    </UriReference>
+    <UriReference Description="Mouse">
+      <UriString Content="ms-settings:easeofaccess-mouse" />
+    </UriReference>
     <UriReference Description="Narrator">
       <UriString Content="ms-settings:easeofaccess-narrator" />
-      <UriReference Description="Magnifier">
-        <UriString Content="ms-settings:easeofaccess-magnifier" />
-      </UriReference>
-      <UriReference Description="High contrast">
-        <UriString Content="ms-settings:easeofaccess-highcontrast" />
-      </UriReference>
-      <UriReference Description="Closed captions">
-        <UriString Content="ms-settings:easeofaccess-closedcaptioning" />
-      </UriReference>
-      <UriReference Description="Keyboard">
-        <UriString Content="ms-settings:easeofaccess-keyboard" />
-      </UriReference>
-      <UriReference Description="Mouse">
-        <UriString Content="ms-settings:easeofaccess-mouse" />
-      </UriReference>
-      <UriReference Description="Other options">
-        <UriString Content="ms-settings:easeofaccess-otheroptions" />
-      </UriReference>
+    </UriReference>
+    <UriReference Description="Other options">
+      <UriString Content="ms-settings:easeofaccess-otheroptions" />
+    </UriReference>
+    <UriReference Description="Speech">
+      <UriString Content="ms-settings:easeofaccess-speechrecognition" />
     </UriReference>
   </Category>
   <Category Name="Privacy">

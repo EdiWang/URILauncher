@@ -14,6 +14,12 @@ namespace UWPURILauncher.ViewModel
 
         private void AddUriReferences()
         {
+            var cn = ReferencesContext.Instance.AllReferences.FirstOrDefault(r => r.Name == "Cortana");
+            if (null != cn)
+            {
+                AddCategoryData(cn.Name, cn.UriReferences.ToList());
+            }
+
             var ws = ReferencesContext.Instance.AllReferences.FirstOrDefault(r => r.Name == "Windows Settings");
             if (null != ws)
             {
