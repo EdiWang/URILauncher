@@ -212,55 +212,64 @@
     </UriReference>
   </Category>
   <Category Name="Network &amp; Internet">
-    <UriReference Description="Ethernet">
-      <UriString Content="ms-settings:network-ethernet" />
-    </UriReference>
-    <UriReference Description="VPN">
-      <UriString Content="ms-settings:network-vpn" />
-    </UriReference>
-    <UriReference Description="Dial-up">
-      <UriString Content="ms-settings:network-dialup" />
-    </UriReference>
-    <UriReference Description="Wi-Fi Calling">
-      <UriString Content="ms-settings:network-wificalling" />
-    </UriReference>
-    <UriReference Description="Data usage">
-      <UriString Content="ms-settings:datausage" />
+    <UriReference Description="Airplane mode">
+      <UriString Content="ms-settings:network-airplanemode" />
     </UriReference>
     <UriReference Description="Cellular &amp; SIM">
       <UriString Content="ms-settings:network-cellular" />
     </UriReference>
-    <UriReference Description="Mobile hotspot">
-      <UriString Content="ms-settings:network-mobilehotspot" />
+    <UriReference Description="Data usage">
+      <UriString Content="ms-settings:datausage" />
     </UriReference>
-    <UriReference Description="Proxy">
-      <UriString Content="ms-settings:network-proxy" />
+    <UriReference Description="Dial-up">
+      <UriString Content="ms-settings:network-dialup" />
+    </UriReference>
+    <UriReference Description="DirectAccess">
+      <UriString Content="ms-settings:network-directaccess" />
+    </UriReference>
+    <UriReference Description="Ethernet">
+      <UriString Content="ms-settings:network-ethernet" />
     </UriReference>
     <UriReference Description="Manage known networks">
       <UriString Content="ms-settings:network-wifisettings" />
     </UriReference>
-    <UriReference Description="NFC">
-      <UriString Content="ms-settings:nfctransactions" />
+    <UriReference Description="Mobile hotspot">
+      <UriString Content="ms-settings:network-mobilehotspot" />
     </UriReference>
     <UriReference Description="NFC">
       <UriString Content="ms-settings:nfctransactions" />
+    </UriReference>
+    <UriReference Description="Proxy">
+      <UriString Content="ms-settings:network-proxy" />
+    </UriReference>
+    <UriReference Description="Status">
+      <UriString Content="ms-settings:network-status" />
+    </UriReference>
+    <UriReference Description="VPN">
+      <UriString Content="ms-settings:network-vpn" />
     </UriReference>
     <UriReference Description="Wi-Fi">
       <UriString Content="ms-settings:network-wifi" />
     </UriReference>
-    <UriReference Description="Airplane mode">
-      <UriString Content="ms-settings:network-airplanemode" />
+    <UriReference Description="Wi-Fi Calling">
+      <UriString Content="ms-settings:network-wificalling" />
     </UriReference>
   </Category>
   <Category Name="Personalization">
-    <UriReference Description="Start">
-      <UriString Content="ms-settings:personalization-start" />
+    <UriReference Description="Background">
+      <UriString Content="ms-settings:personalization-background" />
     </UriReference>
-    <UriReference Description="Themes">
-      <UriString Content="ms-settings:themes" />
+    <UriReference Description="Choose which folders appear on Start">
+      <UriString Content="ms-settings:personalization-start-places" />
+    </UriReference>
+    <UriReference Description="Colors">
+      <UriString Content="ms-settings:personalization-colors" />
     </UriReference>
     <UriReference Description="Glance">
       <UriString Content="ms-settings:personalization-glance" />
+    </UriReference>
+    <UriReference Description="Lock screen">
+      <UriString Content="ms-settings:lockscreen" />
     </UriReference>
     <UriReference Description="Navigation bar">
       <UriString Content="ms-settings:personalization-navbar" />
@@ -268,20 +277,17 @@
     <UriReference Description="Personalization (category)">
       <UriString Content="ms-settings:personalization" />
     </UriReference>
-    <UriReference Description="Background">
-      <UriString Content="ms-settings:personalization-background" />
-    </UriReference>
-    <UriReference Description="Colors">
-      <UriString Content="ms-settings:personalization-colors" />
+    <UriReference Description="Start">
+      <UriString Content="ms-settings:personalization-start" />
     </UriReference>
     <UriReference Description="Sounds">
       <UriString Content="ms-settings:sounds" />
     </UriReference>
-    <UriReference Description="Lock screen">
-      <UriString Content="ms-settings:lockscreen" />
-    </UriReference>
     <UriReference Description="Task Bar">
       <UriString Content="ms-settings:taskbar" />
+    </UriReference>
+    <UriReference Description="Themes">
+      <UriString Content="ms-settings:themes" />
     </UriReference>
   </Category>
   <Category Name="Time and language">
@@ -334,47 +340,26 @@
     </UriReference>
   </Category>
   <Category Name="Privacy">
-    <UriReference Description="App diagnostics">
-      <UriString Content="ms-settings:privacy-appdiagnostics" />
-    </UriReference>
-    <UriReference Description="Notifications">
-      <UriString Content="ms-settings:privacy-notifications" />
-    </UriReference>
-    <UriReference Description="Tasks">
-      <UriString Content="ms-settings:privacy-tasks" />
-    </UriReference>
-    <UriReference Description="General">
-      <UriString Content="ms-settings:privacy-general" />
-    </UriReference>
     <UriReference Description="Accessory apps">
       <UriString Content="ms-settings:privacy-accessoryapps" />
-    </UriReference>
-    <UriReference Description="Advertising ID">
-      <UriString Content="ms-settings:privacy-advertisingid" />
-    </UriReference>
-    <UriReference Description="Phone calls">
-      <UriString Content="ms-settings:privacy-phonecall" />
-    </UriReference>
-    <UriReference Description="Location">
-      <UriString Content="ms-settings:privacy-location" />
-    </UriReference>
-    <UriReference Description="Camera">
-      <UriString Content="ms-settings:privacy-webcam" />
-    </UriReference>
-    <UriReference Description="Microphone">
-      <UriString Content="ms-settings:privacy-microphone" />
-    </UriReference>
-    <UriReference Description="Motion">
-      <UriString Content="ms-settings:privacy-motion" />
-    </UriReference>
-    <UriReference Description="Speech, inking &amp; typing">
-      <UriString Content="ms-settings:privacy-speechtyping" />
     </UriReference>
     <UriReference Description="Account info">
       <UriString Content="ms-settings:privacy-accountinfo" />
     </UriReference>
-    <UriReference Description="Contacts">
-      <UriString Content="ms-settings:privacy-contacts" />
+    <UriReference Description="Activity history">
+      <UriString Content="ms-settings:privacy-activityhistory" />
+    </UriReference>
+    <UriReference Description="Advertising ID">
+      <UriString Content="ms-settings:privacy-advertisingid" />
+    </UriReference>
+    <UriReference Description="App diagnostics">
+      <UriString Content="ms-settings:privacy-appdiagnostics" />
+    </UriReference>
+    <UriReference Description="Automatic file downloads">
+      <UriString Content="ms-settings:privacy-automaticfiledownloads" />
+    </UriReference>
+    <UriReference Description="Background Apps">
+      <UriString Content="ms-settings:privacy-backgroundapps" />
     </UriReference>
     <UriReference Description="Calendar">
       <UriString Content="ms-settings:privacy-calendar" />
@@ -382,23 +367,65 @@
     <UriReference Description="Call history">
       <UriString Content="ms-settings:privacy-callhistory" />
     </UriReference>
+    <UriReference Description="Camera">
+      <UriString Content="ms-settings:privacy-webcam" />
+    </UriReference>
+    <UriReference Description="Contacts">
+      <UriString Content="ms-settings:privacy-contacts" />
+    </UriReference>
+    <UriReference Description="Documents">
+      <UriString Content="ms-settings:privacy-documents" />
+    </UriReference>
     <UriReference Description="Email">
       <UriString Content="ms-settings:privacy-email" />
+    </UriReference>
+    <UriReference Description="Eye tracker">
+      <UriString Content="ms-settings:privacy-eyetracker" />
+    </UriReference>
+    <UriReference Description="Feedback &amp; diagnostics">
+      <UriString Content="ms-settings:privacy-feedback" />
+    </UriReference>
+    <UriReference Description="File system">
+      <UriString Content="ms-settings:privacy-broadfilesystemaccess" />
+    </UriReference>
+    <UriReference Description="General">
+      <UriString Content="ms-settings:privacy-general" />
+    </UriReference>
+    <UriReference Description="Location">
+      <UriString Content="ms-settings:privacy-location" />
     </UriReference>
     <UriReference Description="Messaging">
       <UriString Content="ms-settings:privacy-messaging" />
     </UriReference>
-    <UriReference Description="Radios">
-      <UriString Content="ms-settings:privacy-radios" />
+    <UriReference Description="Microphone">
+      <UriString Content="ms-settings:privacy-microphone" />
     </UriReference>
-    <UriReference Description="Background Apps">
-      <UriString Content="ms-settings:privacy-backgroundapps" />
+    <UriReference Description="Motion">
+      <UriString Content="ms-settings:privacy-motion" />
+    </UriReference>
+    <UriReference Description="Notifications">
+      <UriString Content="ms-settings:privacy-notifications" />
     </UriReference>
     <UriReference Description="Other devices">
       <UriString Content="ms-settings:privacy-customdevices" />
     </UriReference>
-    <UriReference Description="Feedback &amp; diagnostics">
-      <UriString Content="ms-settings:privacy-feedback" />
+    <UriReference Description="Pictures">
+      <UriString Content="ms-settings:privacy-pictures" />
+    </UriReference>
+    <UriReference Description="Phone calls">
+      <UriString Content="ms-settings:privacy-phonecall" />
+    </UriReference>
+    <UriReference Description="Radios">
+      <UriString Content="ms-settings:privacy-radios" />
+    </UriReference>
+    <UriReference Description="Speech, inking &amp; typing">
+      <UriString Content="ms-settings:privacy-speechtyping" />
+    </UriReference>
+    <UriReference Description="Tasks">
+      <UriString Content="ms-settings:privacy-tasks" />
+    </UriReference>
+    <UriReference Description="Videos">
+      <UriString Content="ms-settings:privacy-videos" />
     </UriReference>
   </Category>
   <Category Name="Gaming">
@@ -413,6 +440,15 @@
     </UriReference>
     <UriReference Description="Game Mode">
       <UriString Content="ms-settings:gaming-gamemode" />
+    </UriReference>
+    <UriReference Description="Playing a game full screen">
+      <UriString Content="ms-settings:quietmomentsgame" />
+    </UriReference>
+    <UriReference Description="TruePlay">
+      <UriString Content="ms-settings:gaming-trueplay" />
+    </UriReference>
+    <UriReference Description="Xbox Networking">
+      <UriString Content="ms-settings:gaming-xboxnetworking" />
     </UriReference>
   </Category>
   <Category Name="Update &amp; security">
