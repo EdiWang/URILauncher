@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 using Windows.ApplicationModel;
@@ -14,29 +13,12 @@ namespace UWPURILauncher.Common
     {
         #region Singleton
 
-        private static volatile ReferencesContext _instance = null;
-        private static readonly object ObjLock = new Object();
+        private static readonly Lazy<ReferencesContext> Lazy = new Lazy<ReferencesContext>(() => new ReferencesContext());
+
+        public static ReferencesContext Instance => Lazy.Value;
 
         private ReferencesContext()
         {
-        }
-
-        public static ReferencesContext Instance
-        {
-            get
-            {
-                if (_instance == null)
-                {
-                    lock (ObjLock)
-                    {
-                        if (_instance == null)
-                        {
-                            _instance = new ReferencesContext();
-                        }
-                    }
-                }
-                return _instance;
-            }
         }
 
         #endregion
