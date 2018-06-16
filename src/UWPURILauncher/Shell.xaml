@@ -13,7 +13,6 @@
         <NavigationView Loaded="NavigationView_Loaded"
                         SelectionChanged="NavigationView_SelectionChanged"
                         AlwaysShowHeader="False"
-                        x:Name="nvSample"
                         IsSettingsVisible="True" 
                         IsTabStop="False">
             <NavigationView.MenuItems>
